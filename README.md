@@ -46,34 +46,32 @@ pip install pandas plotly
 
 Para executar o script e visualizar as análises, você pode escolher entre o Jupyter Notebook ou o Visual Studio Code. Abaixo estão as instruções para ambos os ambientes.
 
-Usando Jupyter Notebook
-Certifique-se de ter o Python 3 instalado no seu sistema. Se ainda não o fez, você pode baixá-lo em python.org.
+### **Usando Jupyter Notebook**
 
-Instale o Jupyter Notebook usando o comando pip:
+1. Certifique-se de ter o Python 3 instalado no seu sistema. Se ainda não o fez, você pode baixá-lo em **[python.org](https://www.python.org/downloads/)**.
+2. Instale o Jupyter Notebook usando o comando pip:
+    
+    ```bash
+    pip install jupyter
+    ```
+    
+3. Abra o terminal e navegue até o diretório do projeto onde o arquivo **`main.ipynb`** está localizado.
+4. Inicie o Jupyter Notebook executando o seguinte comando no terminal:
+    
+    ```bash
+    jupyter notebook
+    ```
+    
+5. Uma nova aba do navegador deverá abrir com o painel do Jupyter Notebook. Clique no arquivo **`main.ipynb`** para abrir o notebook.
+6. Dentro do notebook, você pode executar as células de código para ver as análises e gráficos gerados pelo script.
 
-bash
-pip install jupyter
-Abra o terminal e navegue até o diretório do projeto onde o arquivo main.ipynb está localizado.
+### **Usando o Visual Studio Code (VSCode)**
 
-Inicie o Jupyter Notebook executando o seguinte comando no terminal:
-
-bash
-jupyter notebook
-Uma nova aba do navegador deverá abrir com o painel do Jupyter Notebook. Clique no arquivo main.ipynb para abrir o notebook.
-
-Dentro do notebook, você pode executar as células de código para ver as análises e gráficos gerados pelo script.
-
-Usando o Visual Studio Code (VSCode)
-Certifique-se de ter o Python 3 instalado no seu sistema. Se ainda não o fez, você pode baixá-lo em python.org.
-
-Instale o Visual Studio Code (VSCode) no seu sistema, caso ainda não tenha feito. Você pode baixá-lo em code.visualstudio.com.
-
-Abra o VSCode e instale a extensão "Python" se ainda não estiver instalada. Você pode fazer isso na seção "Extensões" do VSCode.
-
-Abra o diretório do projeto no VSCode.
-
-Abra o arquivo main.ipynb no VSCode.
-
-Você pode executar as células de código no arquivo main.ipynb para ver as análises e gráficos gerados pelo script.
+1. Certifique-se de ter o Python 3 instalado no seu sistema. Se ainda não o fez, você pode baixá-lo em **[python.org](https://www.python.org/downloads/)**.
+2. Instale o Visual Studio Code (VSCode) no seu sistema, caso ainda não tenha feito. Você pode baixá-lo em **[code.visualstudio.com](https://code.visualstudio.com/)**.
+3. Abra o VSCode e instale a extensão "Python" se ainda não estiver instalada. Você pode fazer isso na seção "Extensões" do VSCode.
+4. Abra o diretório do projeto no VSCode.
+5. Abra o arquivo **`main.ipynb`** no VSCode.
+6. Você pode executar as células de código no arquivo **`main.ipynb`** para ver as análises e gráficos gerados pelo script.
 
 Agora, os usuários do seu repositório no GitHub terão instruções claras sobre como executar o projeto tanto no Jupyter Notebook quanto no Visual Studio Code. Certifique-se de incluir essas instruções no seu README.md no GitHub.
