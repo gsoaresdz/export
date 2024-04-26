@@ -1,5 +1,3 @@
-Eu tenho esse README.md no GitHub, gostaria de complementar adicionando como instalar o Jupyter Notebook e vscode para rodar o projeto:
-
 # **Exportações entre Brasil e França**
 
 Este repositório contém um script em Python que analisa as exportações entre o Brasil e a França.
@@ -73,5 +71,3 @@ Para executar o script e visualizar as análises, você pode escolher entre o Ju
 4. Abra o diretório do projeto no VSCode.
 5. Abra o arquivo **`main.ipynb`** no VSCode.
 6. Você pode executar as células de código no arquivo **`main.ipynb`** para ver as análises e gráficos gerados pelo script.
-
-Agora, os usuários do seu repositório no GitHub terão instruções claras sobre como executar o projeto tanto no Jupyter Notebook quanto no Visual Studio Code. Certifique-se de incluir essas instruções no seu README.md no GitHub.
