@@ -1,14 +1,92 @@
-Eu tenho esse README.md no GitHub, gostaria de complementar adicionando como instalar o Jupyter Notebook e vscode para rodar o projeto:
+<h1 align="center">Exportações entre Brasil e França</h1>
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/exportacao?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/exportacao?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/exportacao?color=56BEB8">
+</p>
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-análises-realizadas">Análises Realizadas</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
+  <a href="#memo-estrutura-dos-dados">Estrutura dos Dados</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
+</p>
+<br>
 
-# **Exportações entre Brasil e França**
+## **:dart: Sobre**
 
-Este repositório contém um script em Python que analisa as exportações entre o Brasil e a França.
+Este repositório contém um script em Python que analisa as exportações entre o Brasil e a França de 2016 a 2020.
 
-## **Descrição do Código**
+## **:sparkles: Análises Realizadas**
 
-O código utiliza a biblioteca Pandas para ler um arquivo CSV chamado **`exportacoes_franca.csv`** e realiza uma série de análises e manipulações nos dados. A base de dados contém informações sobre exportações entre Brasil e França de 2016 a 2020.
+:heavy_check_mark: **Análise 1**: Evolução das exportações para a França ao longo dos anos (US$)
 
-### **Estrutura dos Dados**
+:heavy_check_mark: **Análise 2**: Produtos mais exportados ao longo de todo o período (US$)
+
+:heavy_check_mark: **Análise 3**: Cidade que mais exportou para a França em 2020
+
+:heavy_check_mark: **Análise 4**: Principais produtos exportados pelas duas maiores cidades exportadoras
+
+## **:rocket: Tecnologias**
+
+As seguintes ferramentas foram usadas neste projeto:
+
+- [Python](https://www.python.org/)
+- [Jupyter Notebook](https://jupyter.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Plotly](https://plotly.com/)
+
+## **:white_check_mark: Requerimentos**
+
+Antes de iniciar :checkered_flag:, você precisa ter [Python 3](https://www.python.org/downloads/) instalado.
+
+## **:checkered_flag: Execução**
+
+### Clonando o Repositório
+
+Primeiramente, clone o repositório do projeto para sua máquina local.
+
+```bash
+$ git clone https://github.com/gsoaresdz/exportacao.git
+```
+
+### Instalação das Dependências
+
+Para instalar as dependências do projeto, execute o seguinte comando no terminal:
+
+```bash
+$ pip install pandas plotly
+
+```
+
+### Usando Jupyter Notebook
+
+1. Certifique-se de ter o Python 3 instalado no seu sistema.
+2. Instale o Jupyter Notebook:
+    
+    ```bash
+    pip install jupyter
+    ```
+    
+3. Navegue até o diretório do projeto e inicie o Jupyter Notebook:
+    
+    ```bash
+    jupyter notebook
+    ```
+    
+4. Abra o arquivo **`main.ipynb`** e execute as células de código para ver as análises e gráficos.
+
+### Usando o Visual Studio Code (VSCode)
+
+1. Certifique-se de ter o Python 3 instalado no seu sistema.
+2. Instale o Visual Studio Code (VSCode) e a extensão "Python".
+3. Abra o diretório do projeto no VSCode.
+4. Abra o arquivo **`main.ipynb`** e execute as células de código para ver as análises e gráficos.
+
+## **:memo: Estrutura dos Dados**
 
 Os dados estão estruturados nas seguintes colunas:
 
@@ -24,54 +102,12 @@ Os dados estão estruturados nas seguintes colunas:
 - US$ FOB
 - Net Weight
 
-### **Análises Realizadas**
+## **:memo: Licença**
 
-O script realiza as seguintes análises nos dados:
+Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
-1. Evolução das exportações para a França ao longo dos anos (US$)
-2. Os produtos mais exportados ao longo de todo o período em (US$)
-3. Em 2020, qual cidade mais exportou para a França?
-4. O que as 2 maiores cidades exportaram?
+Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
-## **Como executar**
+&#xa0;
 
-Para executar o script, é necessário ter Python 3 instalado e as seguintes bibliotecas: Pandas e Plotly.
-
-Para instalar as dependências, execute o comando:
-
-```bash
-
-pip install pandas plotly
-```
-
-Para executar o script e visualizar as análises, você pode escolher entre o Jupyter Notebook ou o Visual Studio Code. Abaixo estão as instruções para ambos os ambientes.
-
-### **Usando Jupyter Notebook**
-
-1. Certifique-se de ter o Python 3 instalado no seu sistema. Se ainda não o fez, você pode baixá-lo em **[python.org](https://www.python.org/downloads/)**.
-2. Instale o Jupyter Notebook usando o comando pip:
-    
-    ```bash
-    pip install jupyter
-    ```
-    
-3. Abra o terminal e navegue até o diretório do projeto onde o arquivo **`main.ipynb`** está localizado.
-4. Inicie o Jupyter Notebook executando o seguinte comando no terminal:
-    
-    ```bash
-    jupyter notebook
-    ```
-    
-5. Uma nova aba do navegador deverá abrir com o painel do Jupyter Notebook. Clique no arquivo **`main.ipynb`** para abrir o notebook.
-6. Dentro do notebook, você pode executar as células de código para ver as análises e gráficos gerados pelo script.
-
-### **Usando o Visual Studio Code (VSCode)**
-
-1. Certifique-se de ter o Python 3 instalado no seu sistema. Se ainda não o fez, você pode baixá-lo em **[python.org](https://www.python.org/downloads/)**.
-2. Instale o Visual Studio Code (VSCode) no seu sistema, caso ainda não tenha feito. Você pode baixá-lo em **[code.visualstudio.com](https://code.visualstudio.com/)**.
-3. Abra o VSCode e instale a extensão "Python" se ainda não estiver instalada. Você pode fazer isso na seção "Extensões" do VSCode.
-4. Abra o diretório do projeto no VSCode.
-5. Abra o arquivo **`main.ipynb`** no VSCode.
-6. Você pode executar as células de código no arquivo **`main.ipynb`** para ver as análises e gráficos gerados pelo script.
-
-Agora, os usuários do seu repositório no GitHub terão instruções claras sobre como executar o projeto tanto no Jupyter Notebook quanto no Visual Studio Code. Certifique-se de incluir essas instruções no seu README.md no GitHub.
+<a href="#top">De volta ao topo</a>
