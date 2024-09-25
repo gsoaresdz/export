@@ -1,4 +1,4 @@
-<h1 align="center">Exports between Brazil and France</h1><p align="center"><img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/exportacao?color=56BEB8"><img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/exportacao?color=56BEB8"><img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/exportacao?color=56BEB8"></p><p align="center"><a href="#dart-about">About</a> &#xa0; | &#xa0;
+<h1 align="center">Exports between Brazil and France</h1><p align="center"><img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/export?color=56BEB8"><img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/export?color=56BEB8"><img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/export?color=56BEB8"></p><p align="center"><a href="#dart-about">About</a> &#xa0; | &#xa0;
   <a href="#sparkles-analyses-performed">Analyses Performed</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
@@ -41,7 +41,7 @@ Before starting :checkered_flag:, you need to have [Python 3](https://www.python
 First, clone the project repository to your local machine.
 
 ```bash
-$ git clone https://github.com/gsoaresdz/exportacao.git
+$ git clone https://github.com/gsoaresdz/export.git
 ```
 
 ### Installing Dependencies
